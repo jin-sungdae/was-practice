@@ -16,4 +16,9 @@
 - 비 연결성(Connectionless)
   - 서버가 클라이언트 요청에 대해 응답을 마치면 맺었던 연결을 끊어 버림
   - 해결책 : 쿠키(클라이언트에 정보 저장), 세션(서버에 정보 저장), JWT
-  
+ 
+## 객체
+- HttpRequest
+  - RequestLine
+  - Header
+  - Body
