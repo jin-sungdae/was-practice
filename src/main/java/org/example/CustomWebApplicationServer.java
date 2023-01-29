@@ -49,6 +49,8 @@ public class CustomWebApplicationServer {
                         int operand2 = Integer.parseInt(queryStrings.getValue("operand2"));
 
                         int result = Calculator.calculate(new PositiveNumber(operand1), operator, new PositiveNumber(operand2));
+
+                        HttpResponse httpResponse = new HttpResponse();
                     }
                 }
             }
