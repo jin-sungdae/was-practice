@@ -19,6 +19,10 @@
  
 ## 객체
 - HttpRequest
-  - RequestLine
+  - RequestLine ("GET /calculate?operand1=11&operator=*&operand2=55 HTTP/1.1")
+    - HttpMethod
+    - path
+    - queryString
+    - protocal/version
   - Header
   - Body
