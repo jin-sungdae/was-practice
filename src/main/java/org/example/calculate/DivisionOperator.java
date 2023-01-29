@@ -1,7 +1,5 @@
 package org.example.calculate;
 
-import org.example.NewArtihmeticOperator;
-
 public class DivisionOperator implements NewArtihmeticOperator {
     @Override
     public boolean supports(String operator) {

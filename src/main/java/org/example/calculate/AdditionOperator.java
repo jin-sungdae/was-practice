@@ -1,7 +1,5 @@
 package org.example.calculate;
 
-import org.example.NewArtihmeticOperator;
-
 public class AdditionOperator implements NewArtihmeticOperator {
 
     @Override
