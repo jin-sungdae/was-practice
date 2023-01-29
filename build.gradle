@@ -10,8 +10,13 @@ repositories {
 }
 
 dependencies {
+
+    implementation('ch.gos.logback:logback-classic:1.2.3')
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    testImplementation('org.assetj:assertj-core:3.23.1')
 }
 
 test {
