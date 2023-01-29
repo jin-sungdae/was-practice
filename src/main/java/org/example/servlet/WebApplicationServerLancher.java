@@ -1,4 +1,4 @@
-package org.example;
+package org.example.servlet;
 
 import org.apache.catalina.LifecycleException;
 import org.apache.catalina.startup.Tomcat;
